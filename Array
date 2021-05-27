@@ -1,0 +1,16 @@
+public class Test {
+
+	// Driver Program
+	public static void main(String[] args) {
+		int a[][] = {{10,20,30},{40,50,60},{70,80,90}};
+
+		for(int row=0;row<3;row++) {
+			for(int col=0;col<3;col++) {
+				a[row][col] = a[row][col]+100;
+				System.out.print(a[row][col]+" ");
+			}
+			
+			System.out.println();
+		}
+	}
+}
